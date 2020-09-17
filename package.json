@@ -1,0 +1,27 @@
+{
+  "name": "express-api-typescript",
+  "version": "1.0.0",
+  "description": "Express API with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wise-introvert/express-api-typescript.git"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "api",
+    "rest",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "wise-introvert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wise-introvert/express-api-typescript/issues"
+  },
+  "homepage": "https://github.com/wise-introvert/express-api-typescript#readme"
+}
