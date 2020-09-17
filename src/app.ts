@@ -3,6 +3,7 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cors from "cors";
 import dotenv from "dotenv";
+import config from "config";
 
 import * as middlewares from "./middlewares";
 import api from "./api";
@@ -23,7 +24,7 @@ app.get("/", (req: express.Request, res: express.Response) => {
 });
 
 // ROUTES
-app.use("/api/v1", api);
+app.use(config.get("routes.root"), api);
 
 // MIDDLEWARES
 app.use(middlewares.notFound);
