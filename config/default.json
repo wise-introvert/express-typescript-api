@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "user": {
+      "root": "/user",
+      "get": "/"
+    }
+  }
+}
