@@ -1,5 +1,6 @@
 {
   "routes": {
+    "root": "/api/v1",
     "user": {
       "root": "/user",
       "get": "/"
