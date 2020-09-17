@@ -1,5 +1,5 @@
 {
-  "name": "express-api-typescript",
+  "name": "express-typesript-api",
   "version": "1.0.0",
   "description": "Express API with TypeScript",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wise-introvert/express-api-typescript.git"
+    "url": "git+https://github.com/wise-introvert/express-typesript-api.git"
   },
   "keywords": [
     "express",
@@ -23,9 +23,9 @@
   "author": "wise-introvert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wise-introvert/express-api-typescript/issues"
+    "url": "https://github.com/wise-introvert/express-typesript-api/issues"
   },
-  "homepage": "https://github.com/wise-introvert/express-api-typescript#readme",
+  "homepage": "https://github.com/wise-introvert/express-typesript-api#readme",
   "devDependencies": {
     "@types/config": "0.0.36",
     "@types/cors": "^2.8.7",
