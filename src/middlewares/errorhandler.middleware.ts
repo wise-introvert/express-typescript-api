@@ -12,7 +12,7 @@ export const errorHandler = (
     res.statusCode !== codes.OK ? res.statusCode : codes.INTERNAL_SERVER_ERROR;
   res.status(statusCode);
   res.json({
-    message: err.message,
+    error: err.message,
     stack: process.env.NODE_ENV === "production" ? "🥞" : err.stack
   });
 };

@@ -10,9 +10,10 @@ import api from "./api";
 
 dotenv.config();
 const app = express();
+const { NODE_ENV = "development" } = process.env;
 
 // MIDDLEWARES
-app.use(morgan("dev"));
+NODE_ENV !== "test" && app.use(morgan("dev"));
 app.use(helmet());
 app.use(cors());
 app.use(express.json());

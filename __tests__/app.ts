@@ -1,8 +1,4 @@
-import supertest from "supertest";
-
-import app from "../src/app";
-
-const request = supertest(app);
+import { request } from "../test.utils";
 
 describe("app", () => {
   test("sends back list of emojis", (done: any) => {
